@@ -1,4 +1,15 @@
-.logo{
-	font-size:40px;
-	margin-left:15px;
+#logo{
+	margin-right: 0;
+	padding-left:0;
+}
+.header1{
+	background-color: white;
+	border: 1px solid black;
+    box-shadow: 1px 1px 1px gray;
+    }
+#color-nav{
+	background: white;
+	text-decoration: none;
+	font-size: 25px;
+	color: silver;
 }
