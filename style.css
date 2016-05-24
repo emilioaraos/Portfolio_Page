@@ -10,6 +10,23 @@
 #color-nav{
 	background: white;
 	text-decoration: none;
-	font-size: 25px;
+	font-size: 30px;
 	color: silver;
+}
+/*a#color-nav:link {
+  color: black;
+}
+
+a#color-nav:visited {
+color: gray;
+}*/
+
+a#color-nav:hover {
+  color: red;
+  background-color: gray;
+}
+
+a#color-nav:active {
+  color: transparent;
+  background-color: gray;
 }
