@@ -12,6 +12,7 @@
 	text-decoration: none;
 	font-size: 30px;
 	color: silver;
+
 }
 /*a#color-nav:link {
   color: black;
@@ -23,7 +24,8 @@ color: gray;
 
 a#color-nav:hover {
   color: red;
-  background-color: gray;
+  background-color: transparent;
+  box-shadow: 1px 2px 1px #888888;
 }
 
 a#color-nav:active {
