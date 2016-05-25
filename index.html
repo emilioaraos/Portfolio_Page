@@ -4,6 +4,8 @@
         <meta charset="utf-8">
           <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
           <link rel="stylesheet" type="text/css" href="style.css">
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+         <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     </head>
     <body>  
     <div id="page">
@@ -13,8 +15,14 @@
             <div class="col-xs-8 ">
               <img id="logo" src="logo_portfolio.png" width="90" height="90">
             </div>
-            <div class="col-xs-4 col2">
-              <nav class="nav-right ">
+            <div class="col-xs-4 col2 navbar-header">
+            <button type="button" data-toggle="collapse" data-target="#navbar" class="navbar-toggle collapsed">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+              <nav id="navbar" role="navigation" class="navbar-collapse collapse" class="nav-right">
                 <span><a class="active" href="#" id="color-nav"  > Home &nbsp</a></span>
                 <span><a href="#" id="color-nav" > Portfolio &nbsp</a></span> 
                 <span><a href="#" id="color-nav" > About &nbsp</a></span> 
