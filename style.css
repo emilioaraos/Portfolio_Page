@@ -1,37 +1,67 @@
 #logo{
 	margin-right: 0;
 	padding-left:0;
-	margin-top: -25px;
+	margin-top: 0px;
 }
-.header1{
+.navbar{
 	background-color: white;
 	border: 1px solid black;
     box-shadow: 1px 1px 1px gray;
-    padding-top: 25px;
+  
     }
 
 #color-nav{
 	background: white;
 	text-decoration: none;
-	font-size: 30px;
+	font-size: 20px;
 	color: black;
+	margin-top: 0px;
 
 }
-/*a#color-nav:link {
+a#color-nav:link {
   color: black;
 }
 
 a#color-nav:visited {
-color: gray;
-}*/
+color: black;
+}
 
 a#color-nav:hover {
   color: #488488;
   background-color: transparent;
-  box-shadow: 1px 2px 1px #888888;
+  box-shadow: 3px 2px 3px #488466;
 }
 
 a#color-nav:active {
   color: transparent;
-  background-color: gray;
+  background-color: transparent;
 }
+
+
+/*
+#banner {
+    background-color: #722872 !important;
+    height: 80px;
+    box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-color: #592059;
+}
+.navbar-default {
+    background-color: #f8f8f8;
+    border-color: #e7e7e7;
+}
+.navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 1px;
+}
+.navbar-fixed-bottom, .navbar-fixed-top {
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+.navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+}*/
