@@ -48,12 +48,33 @@ a#color-nav:active {
   border-radius: 50%;
   max-width: 300px;
   max-height: 300px;
+  padding-bottom: 15px;
 }
 .title1{
   color:white;
   text-align: center;
   background: #add8e6;
+
 }
 body{
   background: #874c4c;
+}
+.portfolio1{
+  max-height: 80%;
+  max-width: 80%;
+}
+.portfolio2{
+  max-height: 80%;
+  max-width: 80%;
+}
+.portfolio3{
+  max-height: 80%;
+  max-width: 80%;
+  margin-top: 20px;
+
+}
+.portfolio4{
+  max-height: 80%;
+  max-width: 80%;
+  margin-top: 20px;
 }
