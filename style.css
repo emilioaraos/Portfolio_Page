@@ -87,12 +87,40 @@ body{
   max-width: 90%;
   margin-top: 20px;
 }
+
 .contact{
 text-align: left;
 background: black;
 color:white;
+border: 3px solid navy;
 }
 .title2{
   text-align: center;
   font-family: monospace;
+}
+.footer1{
+  background: white;
+  font-family: monospace;
+}
+.pic1{
+  max-height:30px;
+  max-width: 30px;
+}
+.pic2{
+  max-height:30px;
+  max-width: 30px;
+}
+.pic3{
+  max-height:30px;
+  max-width: 30px;
+}
+.pic4{
+  max-height:30px;
+  max-width: 30px;
+}
+.footer2{
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+
 }
